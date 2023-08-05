@@ -79,101 +79,8 @@ parsers: # array
         - RULE-SET,lancidr,DIRECT
         - GEOIP,LAN,DIRECT
         - RULE-SET,reject,🛑 廣告攔截
-        - DOMAIN-KEYWORD,ghostship,DIRECT
-        - DOMAIN-KEYWORD,steamserver,DIRECT
-        - DOMAIN-KEYWORD,deepl.com,DIRECT
-        - DOMAIN-KEYWORD,login.live.com,DIRECT
-        - DOMAIN-KEYWORD,mod.io,PROXY
-        - PROCESS-NAME,ToDesk.exe,DIRECT
-        - PROCESS-NAME,ToDesk_Service.exe,DIRECT
-        - PROCESS-NAME,ToDesk_Session.exe,DIRECT
-        - PROCESS-NAME,java.exe,DIRECT
-        - PROCESS-NAME,FSD-Win64-Shipping.exe,DIRECT
-        - PROCESS-NAME,aria2c.exe,DIRECT
-        - PROCESS-NAME,livehime.exe,DIRECT
-        - PROCESS-NAME,AdGuardHome.exe,DIRECT
-        - PROCESS-NAME,ekrn.exe,DIRECT
-        - PROCESS-NAME,jetbrains-toolbox.exe,DIRECT
-        - PROCESS-NAME,hysteria,DIRECT
-        - PROCESS-NAME,hysteria.exe,DIRECT
-        - PROCESS-NAME,leaf,DIRECT
-        - PROCESS-NAME,leaf.exe,DIRECT
-        - PROCESS-NAME,naive,DIRECT
-        - PROCESS-NAME,naive.exe,DIRECT
-        - PROCESS-NAME,privoxy,DIRECT
-        - PROCESS-NAME,privoxy.exe,DIRECT
-        - PROCESS-NAME,proxifier,DIRECT
-        - PROCESS-NAME,proxifier.exe,DIRECT
-        - PROCESS-NAME,shadowsocks,DIRECT
-        - PROCESS-NAME,shadowsocks.exe,DIRECT
-        - PROCESS-NAME,shadowsocksr,DIRECT
-        - PROCESS-NAME,shadowsocksr.exe,DIRECT
-        - PROCESS-NAME,sing-box,DIRECT
-        - PROCESS-NAME,sing-box.exe,DIRECT
-        - PROCESS-NAME,speeder,DIRECT
-        - PROCESS-NAME,speeder.exe,DIRECT
-        - PROCESS-NAME,speederv2,DIRECT
-        - PROCESS-NAME,speederv2.exe,DIRECT
-        - PROCESS-NAME,ss-local,DIRECT
-        - PROCESS-NAME,ss-local.exe,DIRECT
-        - PROCESS-NAME,sslocal,DIRECT
-        - PROCESS-NAME,sslocal.exe,DIRECT
-        - PROCESS-NAME,tinyvpn,DIRECT
-        - PROCESS-NAME,tinyvpn.exe,DIRECT
-        - PROCESS-NAME,trojan,DIRECT
-        - PROCESS-NAME,trojan.exe,DIRECT
-        - PROCESS-NAME,trojan-go,DIRECT
-        - PROCESS-NAME,trojan-go.exe,DIRECT
-        - PROCESS-NAME,tuic,DIRECT
-        - PROCESS-NAME,tuic.exe,DIRECT
-        - PROCESS-NAME,tuic-client,DIRECT
-        - PROCESS-NAME,tuic-client.exe,DIRECT
-        - PROCESS-NAME,udp2raw,DIRECT
-        - PROCESS-NAME,udp2raw.exe,DIRECT
-        - PROCESS-NAME,udp2raw_mp,DIRECT
-        - PROCESS-NAME,udp2raw_mp.exe,DIRECT
-        - PROCESS-NAME,v2ray,DIRECT
-        - PROCESS-NAME,v2ray.exe,DIRECT
-        - PROCESS-NAME,xray,DIRECT
-        - PROCESS-NAME,Surge,DIRECT
-        - PROCESS-NAME,Surge 2,DIRECT
-        - PROCESS-NAME,Surge 3,DIRECT
-        - PROCESS-NAME,Surge 4,DIRECT
-        - PROCESS-NAME,Surge%202,DIRECT
-        - PROCESS-NAME,Surge%203,DIRECT
-        - PROCESS-NAME,Surge%204,DIRECT
-        - PROCESS-NAME,BitComet,DIRECT
-        - PROCESS-NAME,BitComet.exe,DIRECT
-        - PROCESS-NAME,DownloadService,DIRECT
-        - PROCESS-NAME,Folx,DIRECT
-        - PROCESS-NAME,NeatDM,DIRECT
-        - PROCESS-NAME,NeatDM.exe,DIRECT
-        - PROCESS-NAME,NetTransport,DIRECT
-        - PROCESS-NAME,NetTransport.exe,DIRECT
-        - PROCESS-NAME,Thunder,DIRECT
-        - PROCESS-NAME,Thunder.exe,DIRECT
-        - PROCESS-NAME,ThunderVIP.exe,DIRECT
-        - PROCESS-NAME,Transmission,DIRECT
-        - PROCESS-NAME,WebTorrent,DIRECT
-        - PROCESS-NAME,WebTorrent.exe,DIRECT
-        - PROCESS-NAME,aria2,DIRECT
-        - PROCESS-NAME,aria2.exe,DIRECT
-        - PROCESS-NAME,aria2c,DIRECT
-        - PROCESS-NAME,aria2c.exe,DIRECT
-        - PROCESS-NAME,fdm,DIRECT
-        - PROCESS-NAME,fdm.exe,DIRECT
-        - PROCESS-NAME,qBittorrent,DIRECT
-        - PROCESS-NAME,qbittorrent.exe,DIRECT
-        - PROCESS-NAME,qbittorrent-nox,DIRECT
-        - PROCESS-NAME,transmission-daemon.exe,DIRECT
-        - PROCESS-NAME,transmission-qt.exe,DIRECT
-        - PROCESS-NAME,uTorrent,DIRECT
-        - PROCESS-NAME,uTorrent.exe,DIRECT
-        - PROCESS-NAME,xdm,DIRECT
-        - PROCESS-NAME,xdm.exe,DIRECT
-        - PROCESS-NAME,xdman,DIRECT
-        - PROCESS-NAME,xdman.exe,DIRECT
-        - PROCESS-NAME,OneDrive.exe,PROXY
+        - RULE-SET,myselfproxy,PROXY
+        - RULE-SET,myselfdirect,DIRECT
         - RULE-SET,icloud,DIRECT #
         - RULE-SET,apple,DIRECT # 這三個為國內可直連地址，如果希望走代理改為PROXY
         - RULE-SET,google,DIRECT #
@@ -269,4 +176,18 @@ parsers: # array
           behavior: ipcidr
           url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt"
           path: ./ruleset/lancidr.yaml
+          interval: 10800
+
+        myselfproxy: # 自用代理規則
+          type: http
+          behavior: classical
+          url: "https://raw.githubusercontent.com/Vulcankta/CLASH-PARSERS/main/myselfproxy.yaml"
+          path: ./ruleset/myselfproxy.yaml
+          interval: 10800             
+
+        myselfdirect: # 自用直連規則
+          type: http
+          behavior: classical
+          url: "https://raw.githubusercontent.com/Vulcankta/CLASH-PARSERS/main/myselfdirect.yaml"
+          path: ./ruleset/myselfdirect.yaml
           interval: 10800
