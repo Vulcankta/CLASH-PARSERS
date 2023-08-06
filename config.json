@@ -1,1 +1,32 @@
-
+{
+  "log":{    
+    "disabled": true,
+    "level": "panic",
+    "output": "box.log",
+    "timestamp": true
+  },
+  "dns":{
+    "servers":[
+            {
+        "tag": "AdGuardHome",
+        "address": "127.0.0.1",
+        "address_resolver": "local",
+        "address_strategy": "prefer_ipv6",
+        "strategy": "prefer_ipv6",
+        "detour": "direct"
+      }
+    ],
+    "rules": [],
+    "final": "",
+    "strategy": "",
+    "disable_cache": false,
+    "disable_expire": false,
+    "independent_cache": false,
+    "reverse_mapping": false,
+    "fakeip": {}
+  },
+  "inbounds": [],
+  "outbounds": [],
+  "route": {},
+  "experimental": {}
+}
