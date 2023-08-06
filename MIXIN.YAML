@@ -1,0 +1,6 @@
+mixin: # 注意下面缩进
+  dns:
+    enable: true
+    listen: :53
+    nameserver:
+      - 127.0.0.1
