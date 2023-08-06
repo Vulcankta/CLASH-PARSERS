@@ -17,15 +17,17 @@
       }
     ],
     "rules": [],
-    "final": "",
-    "strategy": "",
-    "disable_cache": false,
+    "final": "AdGuardHome",
+    "strategy": "prefer_ipv6",
+    "disable_cache": true,
     "disable_expire": false,
     "independent_cache": false,
     "reverse_mapping": false,
     "fakeip": {}
   },
-  "inbounds": [],
+  "inbounds": [
+    
+  ],
   "outbounds": [],
   "route": {},
   "experimental": {}
