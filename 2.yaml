@@ -20,7 +20,7 @@ parsers: # array
             
         - name: 🔰 選擇節點 
           type: url-test
-          url: https://www.apple.com/library/test/success.html
+          url: http://speed.cloudflare.com
           interval: 180
           tolerance: 200
           lazy: false
