@@ -1,2 +1,16 @@
 payload:
+ - DOMAIN-KEYWORD,activate.adobe.com
+ - DOMAIN-KEYWORD,practivate.adobe.com
+ - DOMAIN-KEYWORD,ereg.adobe.com
+ - DOMAIN-KEYWORD,activate.wip3.adobe.com
+ - DOMAIN-KEYWORD,wip3.adobe.com
+ - DOMAIN-KEYWORD,3dns-3.adobe.com
+ - DOMAIN-KEYWORD,3dns-2.adobe.com
+ - DOMAIN-KEYWORD,adobe-dns.adobe.com
+ - DOMAIN-KEYWORD,adobe-dns-2.adobe.com
+ - DOMAIN-KEYWORD,adobe-dns-3.adobe.com
+ - DOMAIN-KEYWORD,ereg.wip3.adobe.com
+ - DOMAIN-KEYWORD,activate-sea.adobe.com
+ - DOMAIN-KEYWORD,wwis-dubc1-vip60.adobe.com
+ - DOMAIN-KEYWORD,activate-sjc0.adobe.com
  - PROCESS-NAME,Photoshop.exe
