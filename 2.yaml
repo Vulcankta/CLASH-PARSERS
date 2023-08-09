@@ -20,7 +20,7 @@ parsers: # array
             
         - name: 🔰 選擇節點 
           type: url-test
-          url: http://speed.cloudflare.com
+          url: http://cp.cloudflare.com
           interval: 180
           tolerance: 200
           lazy: false
