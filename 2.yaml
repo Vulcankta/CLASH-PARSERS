@@ -79,6 +79,7 @@ parsers: # array
         - RULE-SET,lancidr,DIRECT
         - GEOIP,LAN,DIRECT
         - RULE-SET,reject,🛑 廣告攔截
+        - RULE-SET,myselfreject,REJECT        
         - RULE-SET,myselfproxy,PROXY
         - RULE-SET,myselfdirect,DIRECT
         - RULE-SET,icloud,DIRECT #
@@ -178,6 +179,13 @@ parsers: # array
           path: ./ruleset/lancidr.yaml
           interval: 10800
 
+        myselfreject: # 自用禁止規則
+          type: http
+          behavior: classical
+          url: "https://raw.githubusercontent.com/Vulcankta/CLASH-PARSERS/main/myselfreject.yaml"
+          path: ./ruleset/myselfreject.yaml
+          interval: 10800       
+          
         myselfproxy: # 自用代理規則
           type: http
           behavior: classical
