@@ -95,3 +95,4 @@ payload:
  - PROCESS-NAME,xshellcore.exe
  - PROCESS-NAME,xftp.exe
  - PROCESS-NAME,17monipdb.exe
+ - PROCESS-NAME,Tcping.exe
