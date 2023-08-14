@@ -3,6 +3,7 @@ payload:
  - DOMAIN-KEYWORD,steamserver
  - DOMAIN-KEYWORD,deepl.com
  - DOMAIN-KEYWORD,login.live.com
+ - DOMAIN-KEYWORD,javdb.com
  - PROCESS-NAME,ToDesk.exe
  - PROCESS-NAME,ToDesk_Service.exe
  - PROCESS-NAME,ToDesk_Session.exe
