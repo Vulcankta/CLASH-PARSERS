@@ -5,6 +5,9 @@ payload:
  - DOMAIN-KEYWORD,login.live.com
  - DOMAIN-KEYWORD,javdb.com
  - DOMAIN-KEYWORD,tplogin.cn
+ - DOMAIN-KEYWORD,pastebin.com
+ - DOMAIN-KEYWORD,multiup.org
+ - DOMAIN-KEYWORD,postimages.org
  - PROCESS-NAME,ToDesk.exe
  - PROCESS-NAME,ToDesk_Service.exe
  - PROCESS-NAME,ToDesk_Session.exe
