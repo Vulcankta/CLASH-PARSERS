@@ -92,6 +92,7 @@ parsers: # array
         - RULE-SET,telegramcidr,PROXY
         - RULE-SET,tld-not-cn,PROXY
         - RULE-SET,gfw,PROXY
+        - RULE-SET,proxy,PROXY        
         - MATCH,🔯 代理模式 # 規則之外的
   # 添加規則集
       mix-rule-providers: 
@@ -177,6 +178,13 @@ parsers: # array
           behavior: ipcidr
           url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt"
           path: ./ruleset/lancidr.yaml
+          interval: 10800
+
+        proxy: # 代理域名列表
+          type: http
+          behavior: domain
+          url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
+          path: ./ruleset/proxy.yaml
           interval: 10800
 
         myselfreject: # 自用禁止規則
