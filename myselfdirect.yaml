@@ -101,3 +101,4 @@ payload:
  - PROCESS-NAME,xftp.exe
  - PROCESS-NAME,17monipdb.exe
  - PROCESS-NAME,Tcping.exe
+ - PROCESS-NAME,AdguardSvc.exe
