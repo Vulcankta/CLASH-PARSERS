@@ -9,6 +9,7 @@ payload:
  - DOMAIN-KEYWORD,multiup.org
  - DOMAIN-KEYWORD,postimages.org
  - DOMAIN-KEYWORD,steamdb.info
+ - DOMAIN-KEYWORD,lensdump.com
  - PROCESS-NAME,ToDesk.exe
  - PROCESS-NAME,ToDesk_Service.exe
  - PROCESS-NAME,ToDesk_Session.exe
