@@ -10,16 +10,6 @@ payload:
  - DOMAIN-KEYWORD,postimages.org
  - DOMAIN-KEYWORD,steamdb.info
  - DOMAIN-KEYWORD,lensdump.com
- - PROCESS-NAME,ToDesk.exe
- - PROCESS-NAME,ToDesk_Service.exe
- - PROCESS-NAME,ToDesk_Session.exe
- - PROCESS-NAME,java.exe
- - PROCESS-NAME,FSD-Win64-Shipping.exe
- - PROCESS-NAME,aria2c.exe
- - PROCESS-NAME,livehime.exe
- - PROCESS-NAME,AdGuardHome.exe
- - PROCESS-NAME,ekrn.exe
- - PROCESS-NAME,jetbrains-toolbox.exe
  - PROCESS-NAME,hysteria
  - PROCESS-NAME,hysteria.exe
  - PROCESS-NAME,leaf
@@ -99,6 +89,16 @@ payload:
  - PROCESS-NAME,xdm.exe
  - PROCESS-NAME,xdman
  - PROCESS-NAME,xdman.exe
+ - PROCESS-NAME,ToDesk.exe
+ - PROCESS-NAME,ToDesk_Service.exe
+ - PROCESS-NAME,ToDesk_Session.exe
+ - PROCESS-NAME,java.exe
+ - PROCESS-NAME,FSD-Win64-Shipping.exe
+ - PROCESS-NAME,aria2c.exe
+ - PROCESS-NAME,livehime.exe
+ - PROCESS-NAME,AdGuardHome.exe
+ - PROCESS-NAME,ekrn.exe
+ - PROCESS-NAME,jetbrains-toolbox.exe
  - PROCESS-NAME,xshellcore.exe
  - PROCESS-NAME,xftp.exe
  - PROCESS-NAME,17monipdb.exe
