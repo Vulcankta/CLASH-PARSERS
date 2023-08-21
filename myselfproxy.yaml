@@ -1,3 +1,4 @@
 payload:
  - DOMAIN-KEYWORD,mod.io
+ - DOMAIN-KEYWORD,www.aiosearch.com
  - PROCESS-NAME,OneDrive.exe
