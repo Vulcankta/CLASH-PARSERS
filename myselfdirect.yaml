@@ -103,3 +103,5 @@ payload:
  - PROCESS-NAME,17monipdb.exe
  - PROCESS-NAME,Tcping.exe
  - PROCESS-NAME,AdguardSvc.exe
+ - PROCESS-NAME,BitComet_x64
+ - PROCESS-NAME,BitComet_x64.exe 
