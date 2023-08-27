@@ -9,6 +9,7 @@ payload:
  - DOMAIN-KEYWORD,postimages.org
  - DOMAIN-KEYWORD,steamdb.info
  - DOMAIN-KEYWORD,lensdump.com
+ - DOMAIN-KEYWORD,yandex.com
  - PROCESS-NAME,hysteria
  - PROCESS-NAME,hysteria.exe
  - PROCESS-NAME,leaf
