@@ -106,3 +106,4 @@ payload:
  - PROCESS-NAME,AdguardSvc.exe
  - PROCESS-NAME,BitComet_x64
  - PROCESS-NAME,BitComet_x64.exe 
+ - PROCESS-NAME,DownloadSDKServer.exe
