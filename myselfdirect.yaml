@@ -10,7 +10,6 @@ payload:
  - DOMAIN-KEYWORD,steamdb.info
  - DOMAIN-KEYWORD,lensdump.com
  - DOMAIN-KEYWORD,yandex.com
- - DOMAIN-KEYWORD,laowang.vip
  - PROCESS-NAME,hysteria
  - PROCESS-NAME,hysteria.exe
  - PROCESS-NAME,leaf
@@ -105,6 +104,5 @@ payload:
  - PROCESS-NAME,17monipdb.exe
  - PROCESS-NAME,Tcping.exe
  - PROCESS-NAME,AdguardSvc.exe
- - PROCESS-NAME,BitComet_x64
  - PROCESS-NAME,BitComet_x64.exe 
  - PROCESS-NAME,DownloadSDKServer.exe
