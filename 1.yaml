@@ -18,13 +18,29 @@ parsers: # array
             - 黑名單 # 黑名單模式，意為「只有命中規則的網絡流量，才使用代理」
             - 繞過大陸 # 繞過大陸模式，意為「沒有命中規則的網絡流量，統統使用代理」
             
-        - name: 🔰 選擇節點 
+        - name: 🔰 選擇節點 1
           type: url-test
           url: http://cp.cloudflare.com
           interval: 180
           tolerance: 200
           lazy: false
           disable-udp: false
+
+        - name: 🔰 選擇節點 2
+          type: url-test
+          url: http://cp.cloudflare.com
+          interval: 180
+          tolerance: 200
+          lazy: false
+          disable-udp: false
+
+        - name: 🔰 選擇節點 3
+          type: url-test
+          url: http://cp.cloudflare.com
+          interval: 180
+          tolerance: 200
+          lazy: false
+          disable-udp: false         
             
         - name: 🛑 廣告攔截
           type: select
@@ -44,9 +60,15 @@ parsers: # array
             - PROXY
             
         - name: PROXY
-          type: select
+          type: fallback
           proxies:
-            - 🔰 選擇節點
+            - 🔰 選擇節點 1
+            - 🔰 選擇節點 2
+            - 🔰 選擇節點 3
+          url: http://cp.cloudflare.com
+          interval: 60
+          lazy: false
+          disable-udp: false       
             
   # 策略組示例
        # - name: 分組名
