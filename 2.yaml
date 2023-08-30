@@ -62,7 +62,6 @@ parsers: # array
           
       commands:
         - proxy-groups.🔰 選擇節點.proxies=[]proxyNames # 向指定策略組添加訂閱中的節點名，可使用正則過濾
-        - proxy-groups.🔰 選擇節點.proxies.0+DIRECT # 向指定分組第一個位置添加一個 DIRECT 節點名
         
         # 一些可能用到的正則過濾節點示例，使分組更細緻
         # []proxyNames|a                         # 包含a
