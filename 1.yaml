@@ -83,8 +83,13 @@ parsers: # array
            # - 節點名稱或其他分組套娃
           
       commands:
-        - proxy-groups.🔰 選擇節點.proxies=[]proxyNames # 向指定策略組添加訂閱中的節點名，可使用正則過濾
-        - proxy-groups.🔰 選擇節點.proxies.0+DIRECT # 向指定分組第一個位置添加一個 DIRECT 節點名
+        - proxy-groups.🔰 選擇節點 1.proxies=[]proxyNames # 向指定策略組添加訂閱中的節點名，可使用正則過濾
+        - proxy-groups.🔰 選擇節點 1.proxies.0+DIRECT # 向指定分組第一個位置添加一個 DIRECT 節點名
+        - proxy-groups.🔰 選擇節點 2.proxies=[]proxyNames # 向指定策略組添加訂閱中的節點名，可使用正則過濾
+        - proxy-groups.🔰 選擇節點 2.proxies.0+DIRECT # 向指定分組第一個位置添加一個 DIRECT 節點名
+        - proxy-groups.🔰 選擇節點 3.proxies=[]proxyNames # 向指定策略組添加訂閱中的節點名，可使用正則過濾
+        - proxy-groups.🔰 選擇節點 3.proxies.0+DIRECT # 向指定分組第一個位置添加一個 DIRECT 節點名        
+        
         
         # 一些可能用到的正則過濾節點示例，使分組更細緻
         # []proxyNames|a                         # 包含a
