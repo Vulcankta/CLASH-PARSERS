@@ -21,7 +21,7 @@ parsers: # array
         - name: 🔰 選擇節點 
           type: fallback
           url: http://www.google.com
-          interval: 60
+          interval: 300
           lazy: false
           disable-udp: false
             
