@@ -20,7 +20,7 @@ parsers: # array
             
         - name: 🔰 選擇節點 
           type: fallback
-          url: http://cp.cloudflare.com
+          url: http://www.google.com
           interval: 60
           lazy: false
           disable-udp: false
