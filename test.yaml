@@ -17,7 +17,7 @@ proxies:
     - { name: 'My VPS', type: ss, server: 8.8.8.8, port: '88', cipher: aes-256-gcm, password: password}
 
 proxy-providers:
-  CMUni:  123 # 此處是Airport命名
+  CMUni:   # 此處是Airport命名
     type: http
     url:  https://api.sublink.dev/sub?target=clash&url=https%3A%2F%2Fxn--mesr8b36xr0o.com%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D3cff47ce97481423fe8c242bb0718ce4&insert=false&emoji=true&list=true&tfo=false&scv=false&fdn=false&sort=false&new_name=true # 填入Airport節點信息（找一個訂閱轉換的網站，⽐如sublink.dev，粘貼訂閱鏈接，客戶端選Clash ，點擊進階選項，熒幕左下角處勾選“轉換為 NodeList”，最後生成訂閱鏈接並粘貼至此處）
     path: ./Proxy/Airport.yml  # 此處自行命名
