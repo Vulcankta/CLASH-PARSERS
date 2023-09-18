@@ -30,6 +30,8 @@ proxy-groups: # 建立策略組
           tolerance: 200
           lazy: false
           disable-udp: false
+          use:
+            - myproxy
             
         - name: 🛑 廣告攔截
           type: select
