@@ -7,7 +7,7 @@ ipv6: true
 proxy-providers:
   myproxy:
     type: http
-    url: https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fxn--mesr8b36xr0o.com%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Df089404cca2afa4894b85da4488417f6&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Mini_MultiMode.ini&append_type=true&emoji=true&list=true&tfo=false&scv=false&fdn=true&sort=true&udp=true #粘貼 Proxy Provider Converter 提供的鏈接
+    url: https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fsub1.smallstrawberry.com%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Dbaf1774af43e95006540f8d59597f433%7Chttps%3A%2F%2Fxn--mesr8b36xr0o.com%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Df089404cca2afa4894b85da4488417f6&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Mini_MultiMode.ini&append_type=true&emoji=true&list=true&tfo=false&scv=false&fdn=true&sort=true&udp=true #粘貼 Proxy Provider Converter 提供的鏈接
     interval: 10800
     path: ./myproxy.yaml
     health-check:
