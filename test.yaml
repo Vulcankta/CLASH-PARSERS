@@ -7,7 +7,7 @@ ipv6: true
 proxy-providers:
   myproxy:
     type: http
-    url: https://proxy-provider-converter.vercel.app/api/convert?url=%20https%3A%2F%2Fxn--mesr8b36xr0o.com%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D3cff47ce97481423fe8c242bb0718ce4&target=clash #粘貼 Proxy Provider Converter 提供的鏈接
+    url: https://xn--mesr8b36xr0o.com/api/v1/client/subscribe?token=3cff47ce97481423fe8c242bb0718ce4 #粘貼 Proxy Provider Converter 提供的鏈接
     interval: 172800
     path: ./myproxy.yaml
     health-check:
