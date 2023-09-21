@@ -12,41 +12,77 @@ parsers: # array
   # 建立自己的配置
     yaml:
       prepend-proxy-groups: # 建立策略組
-        - name: 🔯 代理模式 
+        - name: 🛡️ 代理模式
           type: select
+          disable-udp: false
           proxies:
-            - 黑名單 # 黑名單模式，意為「只有命中規則的網絡流量，才使用代理」
-            - 繞過大陸 # 繞過大陸模式，意為「沒有命中規則的網絡流量，統統使用代理」
+            - 🇨🇳 黑名單 # 黑名單模式，意為「只有命中規則的網絡流量，才使用代理」
+            - 🗽 繞過大陸 # 繞過大陸模式，意為「沒有命中規則的網絡流量，統統使用代理」
+        
+        - name: PROXY
+          type: select
+          disable-udp: false
+          proxies:
+            - 📶 自動測速
+            - 🩺 故障轉移            
+            - ⚖️ 負載均衡-散列
+            - ⚖️ 負載均衡-輪詢
+            - ⚙️ 手動選擇               
             
-        - name: 🔰 選擇節點 
+        - name: ⚙️ 手動選擇
+          type: select
+          disable-udp: false          
+            
+        - name: 🚫 廣告攔截
+          type: select
+          disable-udp: false
+          proxies:
+            - DIRECT
+            - REJECT
+            - PROXY
+            
+        - name: 🇨🇳 黑名單
+          type: select
+          disable-udp: false
+          proxies:
+            - DIRECT
+            
+        - name: 🗽 繞過大陸
+          type: select
+          disable-udp: false
+          proxies:
+            - PROXY
+
+        - name: 📶 自動測速
           type: url-test
           url: http://cp.cloudflare.com
           interval: 300
           tolerance: 200
           lazy: false
           disable-udp: false
-            
-        - name: 🛑 廣告攔截
-          type: select
-          proxies:
-            - DIRECT
-            - REJECT
-            - PROXY
-            
-        - name: 黑名單
-          type: select
-          proxies:
-            - DIRECT
-            
-        - name: 繞過大陸
-          type: select
-          proxies:
-            - PROXY
-            
-        - name: PROXY
-          type: select
-          proxies:
-            - 🔰 選擇節點
+
+        - name: 🩺 故障轉移
+          type: fallback
+          url: http://cp.cloudflare.com
+          interval: 60
+          lazy: false
+          disable-udp: false        
+
+        - name: ⚖️ 負載均衡-散列
+          type: load-balance
+          url: http://cp.cloudflare.com
+          interval: 300
+          lazy: false
+          disable-udp: false
+          strategy: consistent-hashing
+
+        - name: ⚖️ 負載均衡-輪詢
+          type: load-balance
+          url: http://cp.cloudflare.com
+          interval: 300
+          lazy: false
+          disable-udp: false
+          strategy: round-robin
             
   # 策略組示例
        # - name: 分組名
@@ -61,7 +97,11 @@ parsers: # array
            # - 節點名稱或其他分組套娃
           
       commands:
-        - proxy-groups.🔰 選擇節點.proxies=[]proxyNames # 向指定策略組添加訂閱中的節點名，可使用正則過濾
+        - proxy-groups.📶 自動測速.proxies=[]proxyNames # 向指定策略組添加訂閱中的節點名，可使用正則過濾
+        - proxy-groups.🩺 故障轉移.proxies=[]proxyNames # 向指定策略組添加訂閱中的節點名，可使用正則過濾
+        - proxy-groups.⚖️ 負載均衡-散列.proxies=[]proxyNames # 向指定策略組添加訂閱中的節點名，可使用正則過濾
+        - proxy-groups.⚖️ 負載均衡-輪詢.proxies=[]proxyNames # 向指定策略組添加訂閱中的節點名，可使用正則過濾
+        - proxy-groups.⚙️ 手動選擇.proxies=[]proxyNames # 向指定策略組添加訂閱中的節點名，可使用正則過濾
         
         # 一些可能用到的正則過濾節點示例，使分組更細緻
         # []proxyNames|a                         # 包含a
@@ -77,7 +117,7 @@ parsers: # array
         - RULE-SET,private,DIRECT
         - RULE-SET,lancidr,DIRECT
         - GEOIP,LAN,DIRECT
-        - RULE-SET,reject,🛑 廣告攔截
+        - RULE-SET,reject,🚫 廣告攔截
         - RULE-SET,myselfreject,REJECT        
         - RULE-SET,myselfproxy,PROXY
         - RULE-SET,myselfdirect,DIRECT
@@ -92,7 +132,7 @@ parsers: # array
         - RULE-SET,tld-not-cn,PROXY
         - RULE-SET,gfw,PROXY
         - RULE-SET,proxy,PROXY        
-        - MATCH,🔯 代理模式 # 規則之外的
+        - MATCH,🛡️ 代理模式 # 規則之外的
   # 添加規則集
       mix-rule-providers: 
         reject: # 廣告域名列表
