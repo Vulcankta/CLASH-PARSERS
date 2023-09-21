@@ -107,3 +107,4 @@ payload:
  - PROCESS-NAME,DownloadSDKServer.exe
  - PROCESS-NAME,AntDM.exe
  - PROCESS-NAME,AnyDesk.exe
+ - PROCESS-NAME,SunloginClient.exe
