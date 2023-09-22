@@ -64,7 +64,7 @@ parsers: # array
         - name: 🩺 故障轉移
           type: fallback
           url: http://cp.cloudflare.com
-          interval: 60
+          interval: 300
           lazy: false
           disable-udp: false        
 
