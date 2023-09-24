@@ -119,9 +119,8 @@ parsers: # array
         - GEOIP,LAN,DIRECT
         - RULE-SET,reject,🚫 廣告攔截
         - RULE-SET,myselfreject,REJECT        
-        - RULE-SET,myselfproxy1,PROXY
         - RULE-SET,myselfdirect1,DIRECT
-        - RULE-SET,myselfproxy2,PROXY
+        - RULE-SET,myselfproxy,PROXY
         - RULE-SET,myselfdirect2,DIRECT
         - RULE-SET,icloud,DIRECT #
         - RULE-SET,apple,DIRECT # 這三個為國內可直連地址，如果希望走代理改為PROXY
@@ -234,13 +233,6 @@ parsers: # array
           url: "https://raw.gitmirror.com/Vulcankta/CLASH-PARSERS/main/myselfreject.yaml"
           path: ./ruleset/myselfreject.yaml
           interval: 10800       
-          
-        myselfproxy1: # 自用代理規則1
-          type: http
-          behavior: classical
-          url: "https://raw.gitmirror.com/Vulcankta/CLASH-PARSERS/main/myselfproxy1.yaml"
-          path: ./ruleset/myselfproxy1.yaml
-          interval: 10800             
 
         myselfdirect1: # 自用直連規則1
           type: http
@@ -249,11 +241,11 @@ parsers: # array
           path: ./ruleset/myselfdirect1.yaml
           interval: 10800
 
-        myselfproxy2: # 自用代理規則2
+        myselfproxy: # 自用代理規則
           type: http
           behavior: classical
-          url: "https://raw.gitmirror.com/Vulcankta/CLASH-PARSERS/main/myselfproxy2.yaml"
-          path: ./ruleset/myselfproxy2.yaml
+          url: "https://raw.gitmirror.com/Vulcankta/CLASH-PARSERS/main/myselfproxy.yaml"
+          path: ./ruleset/myselfproxy.yaml
           interval: 10800             
 
         myselfdirect2: # 自用直連規則2
