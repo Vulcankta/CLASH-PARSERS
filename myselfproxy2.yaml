@@ -1,3 +1,4 @@
 payload:
  - DOMAIN-KEYWORD,mod.io
  - DOMAIN-KEYWORD,dnscrypt.info
+ - PROCESS-NAME,OneDrive.exe
