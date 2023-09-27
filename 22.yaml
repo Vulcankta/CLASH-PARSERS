@@ -57,7 +57,7 @@ parsers: # array
           type: url-test
           url: http://cp.cloudflare.com
           interval: 300
-          tolerance: 200
+          tolerance: 350
           lazy: false
           disable-udp: false
 
