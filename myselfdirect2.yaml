@@ -10,6 +10,7 @@ payload:
  - DOMAIN-KEYWORD,lensdump.com
  - DOMAIN-KEYWORD,yandex.com
  - DOMAIN-KEYWORD,storage.live.com
+ - DOMAIN-KEYWORD,time.windows.com
  - PROCESS-NAME,hysteria
  - PROCESS-NAME,hysteria.exe
  - PROCESS-NAME,leaf
