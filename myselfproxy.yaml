@@ -1,4 +1,5 @@
 payload:
  - DOMAIN-KEYWORD,mod.io
  - DOMAIN-KEYWORD,dnscrypt.info
+ - DOMAIN-KEYWORD,52shuku.vip
  - PROCESS-NAME,OneDrive.exe
