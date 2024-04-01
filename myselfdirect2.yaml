@@ -111,3 +111,4 @@ payload:
  - PROCESS-NAME,SunloginClient.exe
  - PROCESS-NAME,Clash Nyanpasu.exe
  - PROCESS-NAME,mihomo.exe
+ - PROCESS-NAME,dnsproxy.exe
