@@ -112,3 +112,4 @@ payload:
  - PROCESS-NAME,Clash Nyanpasu.exe
  - PROCESS-NAME,mihomo.exe
  - PROCESS-NAME,dnsproxy.exe
+ - PROCESS-NAME,OneDrive.exe
