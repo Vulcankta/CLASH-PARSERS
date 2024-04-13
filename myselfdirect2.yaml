@@ -110,5 +110,4 @@ payload:
  - PROCESS-NAME,AnyDesk.exe
  - PROCESS-NAME,SunloginClient.exe
  - PROCESS-NAME,dnsproxy.exe
- - PROCESS-NAME,OneDrive.exe
  - PROCESS-NAME,mihomo.exe
