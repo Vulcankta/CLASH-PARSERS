@@ -11,6 +11,8 @@ payload:
  - DOMAIN-KEYWORD,yandex.com
  - DOMAIN-KEYWORD,storage.live.com
  - DOMAIN-KEYWORD,time.windows.com
+ - DOMAIN-KEYWORD,yacd.metacubex.one
+ - DOMAIN-KEYWORD,d.metacubex.one
  - PROCESS-NAME,hysteria
  - PROCESS-NAME,hysteria.exe
  - PROCESS-NAME,leaf
