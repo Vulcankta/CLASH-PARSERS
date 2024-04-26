@@ -21,8 +21,6 @@ payload:
  - PROCESS-NAME,naive.exe
  - PROCESS-NAME,privoxy
  - PROCESS-NAME,privoxy.exe
- - PROCESS-NAME,proxifier
- - PROCESS-NAME,proxifier.exe
  - PROCESS-NAME,shadowsocks
  - PROCESS-NAME,shadowsocks.exe
  - PROCESS-NAME,shadowsocksr
