@@ -112,3 +112,5 @@ payload:
  - PROCESS-NAME,dnsproxy.exe
  - PROCESS-NAME,mihomo
  - PROCESS-NAME,mihomo.exe
+ - PROCESS-NAME,mihomo-windows-amd64
+ - PROCESS-NAME,mihomo-windows-amd64.exe
