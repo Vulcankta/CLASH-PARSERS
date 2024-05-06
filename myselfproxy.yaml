@@ -7,4 +7,6 @@ payload:
  - DOMAIN-KEYWORD,www.xytalk.net
  - DOMAIN-KEYWORD,www.fileshot.net
  - DOMAIN-KEYWORD,image.fileshot.net
+ - DOMAIN-SUFFIX,v1.mk
+ - DOMAIN-SUFFIX,raw.githubusercontent.com
  - PROCESS-NAME,OneDrive.exe
