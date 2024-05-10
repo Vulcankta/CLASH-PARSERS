@@ -9,4 +9,5 @@ payload:
  - DOMAIN-KEYWORD,image.fileshot.net
  - DOMAIN-SUFFIX,v1.mk
  - DOMAIN-SUFFIX,raw.githubusercontent.com
+ - DOMAIN-SUFFIX,fonts.googleapis.com
  - PROCESS-NAME,OneDrive.exe
