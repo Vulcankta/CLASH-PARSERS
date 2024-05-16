@@ -11,4 +11,4 @@ payload:
  - DOMAIN-SUFFIX,raw.githubusercontent.com
  - DOMAIN-SUFFIX,fonts.googleapis.com
  - GEOSITE,bing
- - PROCESS-NAME,OneDrive.exe
+ - GEOSITE,onedrive
