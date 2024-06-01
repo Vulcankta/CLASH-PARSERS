@@ -97,6 +97,7 @@ payload:
  - PROCESS-NAME,FSD-Win64-Shipping.exe
  - PROCESS-NAME,aria2c.exe
  - PROCESS-NAME,livehime.exe
+ - PROCESS-NAME,AdGuardHome
  - PROCESS-NAME,AdGuardHome.exe
  - PROCESS-NAME,ekrn.exe
  - PROCESS-NAME,jetbrains-toolbox.exe
