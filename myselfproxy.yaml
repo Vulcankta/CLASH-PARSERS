@@ -10,5 +10,6 @@ payload:
  - DOMAIN-SUFFIX,v1.mk
  - DOMAIN-SUFFIX,raw.githubusercontent.com
  - DOMAIN-SUFFIX,fonts.googleapis.com
+ - DOMAIN-SUFFIX,dash.xns.one
  - GEOSITE,bing
  - GEOSITE,onedrive
