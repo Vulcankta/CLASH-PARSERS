@@ -1,15 +1,2 @@
 payload:
- - DOMAIN-KEYWORD,ghostship
- - DOMAIN-KEYWORD,steamserver
- - DOMAIN-KEYWORD,login.live.com
- - DOMAIN-KEYWORD,tplogin.cn
- - DOMAIN-KEYWORD,pastebin.com
- - DOMAIN-KEYWORD,multiup.org
- - DOMAIN-KEYWORD,postimages.org
- - DOMAIN-KEYWORD,steamdb.info
- - DOMAIN-KEYWORD,lensdump.com
- - DOMAIN-KEYWORD,yandex.com
- - DOMAIN-KEYWORD,storage.live.com
- - DOMAIN-KEYWORD,time.windows.com
- - DOMAIN-KEYWORD,yacd.metacubex.one
- - DOMAIN-KEYWORD,d.metacubex.one
+ - DOMAIN-SUFFIX,baidu.com
