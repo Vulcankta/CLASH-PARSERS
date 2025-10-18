@@ -1,8 +1,8 @@
 payload:
  # OneDrive
- - DOMAIN-KEYWORD,sharepoint.com
+ - DOMAIN-WILDCARD,*.sharepoint.com
  # HellDiver2
- - DOMAIN-KEYWORD,steamserver.net
- - DOMAIN-KEYWORD,playfabapi.com
- - DOMAIN-KEYWORD,cloudapp.azure.com
- - DOMAIN-KEYWORD,api.live.prod.thehelldiversgame.com
+ - DOMAIN-WILDCARD,*.steamserver.net
+ - DOMAIN-WILDCARD,*.playfabapi.com
+ - DOMAIN-WILDCARD,*.cloudapp.azure.com
+ - DOMAIN-WILDCARD,*.api.live.prod.thehelldiversgame.com
