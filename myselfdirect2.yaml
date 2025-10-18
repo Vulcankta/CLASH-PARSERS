@@ -1,8 +1,8 @@
 payload:
  # OneDrive
- - DOMAIN-WILDCARD,*.sharepoint.com
+ - DOMAIN-REGEX,*.sharepoint.com
  # HellDiver2
- - DOMAIN-WILDCARD,*.steamserver.net
- - DOMAIN-WILDCARD,*.playfabapi.com
- - DOMAIN-WILDCARD,*.cloudapp.azure.com
- - DOMAIN-WILDCARD,*.api.live.prod.thehelldiversgame.com
+ - DOMAIN-REGEX,*.steamserver.net
+ - DOMAIN-REGEX,*.playfabapi.com
+ - DOMAIN-REGEX,*.cloudapp.azure.com
+ - DOMAIN-REGEX,*.api.live.prod.thehelldiversgame.com
