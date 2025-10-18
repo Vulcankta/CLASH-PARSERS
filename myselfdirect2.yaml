@@ -1,3 +1,4 @@
 payload:
  - DOMAIN-SUFFIX,sharepoint.com
  - DOMAIN-SUFFIX,playfabapi.com
+ - DOMAIN-SUFFIX,mpqosirprod.westus.cloudapp.azure.com
