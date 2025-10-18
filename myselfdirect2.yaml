@@ -1,6 +1,8 @@
 payload:
+ # OneDrive
  - DOMAIN-SUFFIX,sharepoint.com
+ # HellDiver2
  - DOMAIN-SUFFIX,steamserver.net
  - DOMAIN-SUFFIX,playfabapi.com
- - DOMAIN-SUFFIX,mpsqosprod.westus.cloudapp.azure.com
+ - DOMAIN-SUFFIX,cloudapp.azure.com
  - DOMAIN-SUFFIX,api.live.prod.thehelldiversgame.com
