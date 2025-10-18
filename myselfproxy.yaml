@@ -1,4 +1,5 @@
 payload:
- - DOMAIN-WILDCARD,*.google.com
- - DOMAIN-WILDCARD,*.nyne.dev
- - DOMAIN-WILDCARD,*.urlimage.cc
+ # Venera
+ - DOMAIN-REGEX,(^|\.)nyne\.dev$
+ # xsijishe.com
+ - DOMAIN-REGEX,(^|\.)urlimage\.cc$
