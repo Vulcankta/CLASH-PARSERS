@@ -6,3 +6,4 @@ payload:
  - DOMAIN-WILDCARD,*.playfabapi.com
  - DOMAIN-WILDCARD,*.cloudapp.azure.com
  - DOMAIN-WILDCARD,*.api.live.prod.thehelldiversgame.com
+ - DOMAIN-WILDCARD,*.baidu.com
