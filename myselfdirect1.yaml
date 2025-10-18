@@ -1,2 +1,2 @@
 payload:
- - DOMAIN-SUFFIX,baidu.com
+ - DOMAIN-WILDCARD,*.baidu.com
