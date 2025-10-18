@@ -1,2 +1,2 @@
 payload:
- - DOMAIN-WILDCARD,*.baidu.com
+ - DOMAIN-REGEX,(^|\.)baidu\.com$
