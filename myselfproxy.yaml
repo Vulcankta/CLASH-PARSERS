@@ -3,3 +3,5 @@ payload:
  - DOMAIN-REGEX,(^|\.)nyne\.dev$
  # xsijishe.com
  - DOMAIN-REGEX,(^|\.)urlimage\.cc$
+ # 萌學園 
+ - DOMAIN-REGEX,(^|\.)avacg\.vip$
