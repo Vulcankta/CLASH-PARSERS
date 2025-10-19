@@ -4,4 +4,4 @@ payload:
  # xsijishe.com
  - DOMAIN-REGEX,(^|\.)urlimage\.cc$
  # 萌學園 
- - DOMAIN-REGEX,(^|\.)avacg\.vip$
+ # - DOMAIN-REGEX,(^|\.)avacg\.vip$
