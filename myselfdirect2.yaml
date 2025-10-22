@@ -6,3 +6,5 @@ payload:
  - DOMAIN-REGEX,(^|\.)playfabapi\.com$
  - DOMAIN-REGEX,(^|\.)cloudapp\.azure\.com$
  - DOMAIN-REGEX,(^|\.)api\.live\.prod\.thehelldiversgame\.com$
+ # 七普云
+ - IP-CIDR,47.122.124.82/32
