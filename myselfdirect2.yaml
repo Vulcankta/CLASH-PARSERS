@@ -8,3 +8,7 @@ payload:
  - DOMAIN-REGEX,(^|\.)api\.live\.prod\.thehelldiversgame\.com$
  # 七普云
  - IP-CIDR,47.122.124.82/32
+ # 向日葵
+ - DOMAIN-REGEX,(^|\.)oray\.net$
+ # QQ
+ - DOMAIN-REGEX,(^|\.)apd-pcdnwxstat\.teg\.tencent-cloud\.net$
