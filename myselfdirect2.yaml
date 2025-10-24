@@ -10,5 +10,6 @@ payload:
  - IP-CIDR,47.122.124.82/32
  # 向日葵
  - DOMAIN-REGEX,(^|\.)oray\.net$
+ - DOMAIN-REGEX,(^|\.)oray\.com$
  # QQ
  - DOMAIN-REGEX,(^|\.)apd-pcdnwxstat\.teg\.tencent-cloud\.net$
