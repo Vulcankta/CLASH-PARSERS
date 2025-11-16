@@ -5,3 +5,5 @@ payload:
  - DOMAIN-REGEX,(^|\.)urlimage\.cc$
  # 萌學園 
  # - DOMAIN-REGEX,(^|\.)avacg\.vip$
+ # Driver Booster
+ - DOMAIN-REGEX,(^|\.)www\.cd4o\.com$
