@@ -7,3 +7,5 @@ payload:
  # - DOMAIN-REGEX,(^|\.)avacg\.vip$
  # Driver Booster
  - DOMAIN-REGEX,(^|\.)www\.cd4o\.com$
+ # Skidrowreloaded
+ - DOMAIN-REGEX,(^|\.)www\.skidrowreloaded\.com$
