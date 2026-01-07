@@ -11,3 +11,6 @@ payload:
  - DOMAIN-REGEX,(^|\.)www\.skidrowreloaded\.com$
  # SaveGame
  - DOMAIN-REGEX,(^|\.)savegame\.info$
+ # 酒館AI
+ - DOMAIN-REGEX,(^|\.)dzmm\.io$
+ - DOMAIN-REGEX,(^|\.)laopo\.ai$
