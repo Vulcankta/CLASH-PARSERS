@@ -14,3 +14,5 @@ payload:
  # 酒館AI
  - DOMAIN-REGEX,(^|\.)dzmm\.io$
  - DOMAIN-REGEX,(^|\.)laopo\.ai$
+ # Yiove磁力搜索
+ - DOMAIN-REGEX,(^|\.)bt\.iaaaaa\.com$
